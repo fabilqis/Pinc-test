@@ -29,7 +29,7 @@ class Login extends React.Component {
         axios
             .post('https://reqres.in/api/login', this.state)
             .then(res => { 
-                swal('Good job!', 'Your login is', 'success')
+                swal('Good job!', 'Your login is success', 'success')
                 return res
 
             })
